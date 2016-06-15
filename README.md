@@ -46,8 +46,8 @@ Beantragt bei https://github.com/freifunk/icvpn-meta/
 ### lokaler Bereich
 lokaler Bereich beantragt bei https://github.com/freifunk/icvpn-meta/
 fdef:ffc0:8fff::/48
-(Was macht man mit so viel IP-Adressen)
 
 ### HE-Tunnel
-2001:470:6d:83::/64
-(Was macht man mit so viel IP-Adressen)
+2001:470:6d:83::/64 (Tunnel)
+2001:470:5035::/48 
+
