@@ -16,6 +16,15 @@ Beantragt bei https://github.com/freifunk/icvpn-meta/
 #### Gateways ...
 * 10.68.0.0 / 24 ist den GWs und den damit verbundenen Diensten vorbehalten
 
+* 10.68.0.1 ist das gw falterturm (gw01)
+(Platz, ggf. VRRP für GW01)
+* 10.68.0.11 wird eventuell irgendwann gw deustertor (gw02)
+(Platz, ggf. VRRP für GW02)
+* 10.68.0.21 wird eventuell irgendwann gw schwanberg (gw03)
+(Platz, ggf. VRRP für GW03)
+
+* 10.68.0.200 ist für next_node in der Firmware belegt.
+ 
 #### Richtfunkstrecken, Dienste, feste lokale IPv4-Adressen
 * 10.68.1.0 / 24 - Richtfunkstrecken ohne Gluon-FW und ggf. Controller, nur Assigned nach Absprechen etc...
 * 10.68.2.0 / 24 - Reserve
