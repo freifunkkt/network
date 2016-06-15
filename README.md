@@ -4,12 +4,12 @@ Zusammenfassung unserer Netze
 ## ipv4
 
 Beantragt bei https://github.com/freifunk/icvpn-meta/
-10.68.0.0/18
-Adresse: 10.68.0.0
-Netzmaske: 255.255.192.0 = 18
-Netzwerk: 10.68.0.0/18
-HostMin: 10.68.0.1
-HostMax: 10.68.63.254
+* 10.68.0.0/18
+* Adresse: 10.68.0.0
+* Netzmaske: 255.255.192.0 = 18
+* Netzwerk: 10.68.0.0/18
+* HostMin: 10.68.0.1
+* HostMax: 10.68.63.254
 
 ### Aufteilung
 
