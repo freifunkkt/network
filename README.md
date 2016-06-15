@@ -17,11 +17,11 @@ Beantragt bei https://github.com/freifunk/icvpn-meta/
 * 10.68.0.0 / 24 ist den GWs und den damit verbundenen Diensten vorbehalten
 
 * 10.68.0.1 ist das gw falterturm (gw01)
-(Platz, ggf. VRRP für GW01)
+** (Platz, ggf. VRRP für GW01)
 * 10.68.0.11 wird eventuell irgendwann gw deustertor (gw02)
-(Platz, ggf. VRRP für GW02)
+** (Platz, ggf. VRRP für GW02)
 * 10.68.0.21 wird eventuell irgendwann gw schwanberg (gw03)
-(Platz, ggf. VRRP für GW03)
+** (Platz, ggf. VRRP für GW03)
 
 * 10.68.0.200 ist für next_node in der Firmware belegt.
  
