@@ -32,3 +32,13 @@ Beantragt bei https://github.com/freifunk/icvpn-meta/
 * 10.68.32.0 / 20 - DHCP-Bereich für 2tes GW in Zukunft
 * 10.68.48.0 / 20 - DHCP-Bereich für 3tes GW in Zukunft
 
+##ipv6
+
+### lokaler Bereich
+lokaler Bereich beantragt bei https://github.com/freifunk/icvpn-meta/
+fdef:ffc0:8fff::/48
+(Was macht man mit so viel IP-Adressen)
+
+### HE-Tunnel
+2001:470:6d:83::/64
+(Was macht man mit so viel IP-Adressen)
