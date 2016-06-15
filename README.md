@@ -29,6 +29,8 @@ HostMax: 10.68.63.254
 #### DHCP-Bereiche
 
 10.68.16.0 / 20 - DHCP-Bereich mit 4096 Hosts
+
 10.68.32.0 / 20 - DHCP-Bereich für 2tes GW in Zukunft
+
 10.68.48.0 / 20 - DHCP-Bereich für 3tes GW in Zukunft
 
