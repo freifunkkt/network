@@ -1,49 +1,59 @@
-## Batman...
-bat0      Link encap:Ethernet  Hardware Adresse 5a:a9:3c:8b:78:88
-          inet6-Adresse: fe80::58a9:3cff:fe8b:7888/64 GÃ¼ltigkeitsbereich:Verbindung
+#Batman
+bat0      Link encap:Ethernet  Hardware Adresse b6:21:27:a3:1c:c5
+          inet6-Adresse: fe80::b421:27ff:fea3:1cc5/64 GÃ¼ltigkeitsbereich:Verbindung
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metrik:1
-          RX-Pakete:1 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
-          TX-Pakete:0 Fehler:0 Verloren:6 ÃberlÃ¤ufe:0 TrÃ¤ger:0
+          RX-Pakete:576 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
+          TX-Pakete:0 Fehler:0 Verloren:7 ÃberlÃ¤ufe:0 TrÃ¤ger:0
           Kollisionen:0 SendewarteschlangenlÃ¤nge:1000
-          RX-Bytes:42 (42.0 B)  TX-Bytes:0 (0.0 B)
+          RX-Bytes:24192 (24.1 KB)  TX-Bytes:0 (0.0 B)
 
-## Virtuelles Interface der VM
+#Bridge
+br-ffkt   Link encap:Ethernet  Hardware Adresse ca:eb:32:54:dd:cf
+          inet Adresse:10.68.0.1  Bcast:10.68.63.255  Maske:255.255.192.0
+          inet6-Adresse: fe80::c8eb:32ff:fe54:ddcf/64 GÃ¼ltigkeitsbereich:Verbindung
+          inet6-Adresse: fdef:ffc0:8fff::1/64 GÃ¼ltigkeitsbereich:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metrik:1
+          RX-Pakete:0 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
+          TX-Pakete:9 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
+          Kollisionen:0 SendewarteschlangenlÃ¤nge:1000
+          RX-Bytes:0 (0.0 B)  TX-Bytes:1006 (1.0 KB)
+
+# "physikalische" Schnittetstelle
 ens3      Link encap:Ethernet  Hardware Adresse 0a:c3:b4:9d:f0:a7
           inet Adresse:188.68.56.228  Bcast:188.68.59.255  Maske:255.255.252.0
           inet6-Adresse: fe80::8c3:b4ff:fe9d:f0a7/64 GÃ¼ltigkeitsbereich:Verbindung
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metrik:1
-          RX-Pakete:95065 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
-          TX-Pakete:5684 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
+          RX-Pakete:224579 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
+          TX-Pakete:7034 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
           Kollisionen:0 SendewarteschlangenlÃ¤nge:1000
-          RX-Bytes:8944323 (8.9 MB)  TX-Bytes:1640670 (1.6 MB)
+          RX-Bytes:27817804 (27.8 MB)  TX-Bytes:1127542 (1.1 MB)
 
-## HE-Tunnel
+# IPv6-Tunnel Hurricane Electric
 he-ipv6   Link encap:IPv6-nach-IPv4
           inet6-Adresse: 2001:470:6c:83::2/64 GÃ¼ltigkeitsbereich:Global
           inet6-Adresse: fe80::bc44:38e4/64 GÃ¼ltigkeitsbereich:Verbindung
           UP PUNKTZUPUNKT RUNNING NOARP  MTU:1480  Metrik:1
-          RX-Pakete:16 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
-          TX-Pakete:9 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
+          RX-Pakete:27 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
+          TX-Pakete:27 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
           Kollisionen:0 SendewarteschlangenlÃ¤nge:1
-          RX-Bytes:1389 (1.3 KB)  TX-Bytes:816 (816.0 B)
+          RX-Bytes:2592 (2.5 KB)  TX-Bytes:2592 (2.5 KB)
 
 lo        Link encap:Lokale Schleife
           inet Adresse:127.0.0.1  Maske:255.0.0.0
           inet6-Adresse: ::1/128 GÃ¼ltigkeitsbereich:Maschine
           UP LOOPBACK RUNNING  MTU:65536  Metrik:1
-          RX-Pakete:198 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
-          TX-Pakete:198 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
+          RX-Pakete:58 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
+          TX-Pakete:58 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
           Kollisionen:0 SendewarteschlangenlÃ¤nge:1
-          RX-Bytes:15121 (15.1 KB)  TX-Bytes:15121 (15.1 KB)
+          RX-Bytes:7124 (7.1 KB)  TX-Bytes:7124 (7.1 KB)
 
-## Mesh-VPN
-mesh-vpn  Link encap:Ethernet  Hardware Adresse da:11:f7:05:8a:a6
-          inet6-Adresse: fe80::d811:f7ff:fe05:8aa6/64 GÃ¼ltigkeitsbereich:Verbindung
+mesh-vpn  Link encap:Ethernet  Hardware Adresse 22:9b:ee:4d:57:a7
+          inet6-Adresse: fe80::209b:eeff:fe4d:57a7/64 GÃ¼ltigkeitsbereich:Verbindung
           UP BROADCAST RUNNING MULTICAST  MTU:1280  Metrik:1
           RX-Pakete:0 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 Fenster:0
-          TX-Pakete:9 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
+          TX-Pakete:5764 Fehler:0 Verloren:0 ÃberlÃ¤ufe:0 TrÃ¤ger:0
           Kollisionen:0 SendewarteschlangenlÃ¤nge:1000
-          RX-Bytes:0 (0.0 B)  TX-Bytes:778 (778.0 B)
+          RX-Bytes:0 (0.0 B)  TX-Bytes:380808 (380.8 KB)
 
 sit0      Link encap:IPv6-nach-IPv4
           NOARP  MTU:1480  Metrik:1
@@ -52,7 +62,7 @@ sit0      Link encap:IPv6-nach-IPv4
           Kollisionen:0 SendewarteschlangenlÃ¤nge:1
           RX-Bytes:0 (0.0 B)  TX-Bytes:0 (0.0 B)
 
-## AirVPN
+#AIRVPN-Tunnel
 tun0      Link encap:UNSPEC  Hardware Adresse 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
           inet Adresse:10.4.25.27  P-z-P:10.4.25.27  Maske:255.255.0.0
           UP PUNKTZUPUNKT RUNNING NOARP MULTICAST  MTU:1500  Metrik:1
